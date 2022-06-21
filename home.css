@@ -1,0 +1,262 @@
+.Julia {
+    background-image: url(img/usar.png);
+    image-resolution: 60px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.img {
+    align-items: left;
+}
+
+
+/*menu */
+
+.main-menubox {
+    display: none;
+}
+
+.main-menu:hover .main-menubox {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 3px;
+    top: 40%;
+}
+
+.dropdown-submenu:hover .dropdown-menu,
+.dropdown-submenu:focus .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    margin-top: -30px;
+    left: 100%;
+}
+
+@media (max-width: 992px) {
+    .dropdown-menu {
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu {
+        width: auto;
+    }
+    .dropdown-menu {
+        left: -131%;
+    }
+}
+
+.dropdown-submenu a::after {
+    right: 16px;
+    top: 42%;
+}
+
+.dropdown-item {
+    padding: 8px 18px;
+}
+
+.dropdown-item {
+    white-space: normal
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    font-size: 14px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #b80a0a;
+    text-decoration: none;
+    background-color: #e0d5d5;
+}
+
+li.nav-item {
+    padding: 10px 20px;
+}
+
+
+/*textos das caixas de informacoes*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.jumbotron {
+    background-color: #ebebeb;
+}
+
+
+/*botoes das informacoes*/
+
+button {
+    background-color: #b80a0a;
+    color: white;
+    width: 14%;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.btn2 {
+    background-color: #b80a0a;
+    color: white;
+    width: 14%;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.btn5 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 70px;
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+.h1 {
+    text-align: center;
+    color: #b80a0a;
+    font-weight: bold;
+}
+
+footer {
+    bottom: 0px;
+    width: 100%;
+    background: #b80a0a;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+h2 {
+    color: #b80a0a;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.p footer {
+    font-family: 'Jost', sans-serif;
+    color: #000;
+}
+
+.span {
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+    background: #f12020;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 70px;
+    background-color: #b80a0a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a1 {
+    background-color: #b80a0a;
+    text-color: #fff;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+]::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background color: #e61313;
+}
